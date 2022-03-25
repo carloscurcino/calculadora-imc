@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de imc</title>
+    <link rel="stylesheet" href="Calc-style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+</head>
+<body>
+    <header>Calculadora de IMC</header>
+    <section>
+        <div>
+           <p>Nome: <input type="text" name="nome1" id="nome1"></p>
+           <p>Peso: <input type="number" name="peso1" id="peso1"> em KG</p>
+           <p>Altura: <input type="number" name="altura1" id="altura1"> em M</p>
+           <center> <input type="button" value="Calcular" class="botaoEnviar" onclick="calc()"></center>
+           
+        </div>
+        <br>
+        <div id="res">
+            Resultado aqui!
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy;CarlosCurcino</p>
+    </footer>
+
+    <br>
+    <br>
+    <br>
+    <p>Cálculo IMC
+        IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.
+        
+        O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.
+        
+        Quer descobrir seu IMC? Insira seu peso e sua altura nos campos abaixo e compare com os índices da tabela. Importante: siga os exemplos e use pontos como separadores.</p>
+        <center><img src="Calculo imc.png" alt=""></center>
+       <p id="font1">fonte: Dr. Paulo Pittelli</p>
+        <p>
+        O índice de massa corporal (IMC) é um método usado para estimar a quantidade de gordura corporal que uma pessoa possui e, portanto, determinar se o peso está dentro da faixa normal ou, pelo contrário, está acima do peso ou é abaixo do peso. Para isso, a altura e o peso atual do indivíduo são relacionados. Essa fórmula matemática foi elaborada pelo estatístico belga Adolphe Quetelet, por isso também é conhecida como índice de Quetelet ou Índice de Massa Corporal (IMC). A tabela a seguir mostra as categorias de nível de peso padrão associadas às faixas de IMC adulto:
+    </p>
+   <center><img src="Tabela Imc.png" alt=""></center>
+    <p id="font2">fonte: Ricardo Gozzano</p>
+
+    <footer>
+        <p>Desenvolvido por &copy;CarlosCurcino</p>
+    </footer>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
